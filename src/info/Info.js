@@ -4,6 +4,8 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import cer1 from "../img/cer1.png"
+import cer2 from "../img/cer2.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -60,7 +62,7 @@ export const info = {
             label: 'linkedin'
         },
         {
-            link: "https://vnci23.github.io/link/",
+            link: "https://link-xi-three.vercel.app/",
             icon: 'fa fa-globe',
             label: 'globe'
         },
@@ -68,10 +70,10 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hi! I’m a web dev enthusiast from the Philippines. I love making cool and user-friendly websites. Always learning new stuff to keep my sites top-notch.Right now, I’m diving into the MERN stack. Can’t wait to be a MERN expert!",
+    bio: "Hi! I’m a web dev enthusiast from the Philippines. I love making cool and user-friendly websites. Always learning new stuff to keep my sites top-notch.",
     skills:
         {
-            proficientWith: ['html5', 'css3', 'javascript', 'react', 'git', 'github', 'tailwindCSS'],
+            proficientWith: ['html5', 'css3', 'javascript', 'react', 'tailwindCSS', '', 'git & github', 'vscode'],
             exposedTo: ['MernStack', 'python', 'Java', 'figma']
         }
     ,
@@ -93,13 +95,25 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "Responsive Web Design",
+            live: "https://www.freecodecamp.org/certification/fcc165ce4db-ae48-45f9-ada7-b85d6852a35b/responsive-web-design",
+            source: "https://www.freecodecamp.org/", 
+            image: cer2
+        },
+        {
+            title: "JavaScript DSA",
+            live: "https://www.freecodecamp.org/certification/fcc165ce4db-ae48-45f9-ada7-b85d6852a35b/javascript-algorithms-and-data-structures",
+            source: "https://www.freecodecamp.org/",
+            image: cer1
+        },
+        {
             title: "chat app",
             live: "https://vnci23.github.io/chat/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/VnCi23/chat", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "link",
+            title: "Contact link",
             live: "https://vnci23.github.io/link/",
             source: "https://github.com/VnCi23/link",
             image: mock2 
@@ -117,10 +131,10 @@ export const info = {
             image: mock4
         },
         {
-            title: "CountMyDay app",
+            title: "CountMyDay",
             live: "https://vinceeeeeeeeeee.netlify.app/",
             source: "https://github.com/VnCi23/CountMyDay",
             image: mock5
-        }
+        },
     ]
 }

@@ -6,14 +6,12 @@ import {info} from "../../info/Info";
 
 
 export default function About({innerRef}) {
-    const firstName = info.firstName.toLowerCase()
+    const firstName = info.firstName;
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
-                about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> $ </span>
+            <p style={{color: info.baseColor}}>About <span style={{color: info.baseColor}}>{firstName}{info.lastName}</span></p>
+            <p>
                 {info.bio}
             </p>
         </>;
@@ -21,15 +19,11 @@ export default function About({innerRef}) {
 
     function skillsText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
-            </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+            <p style={{color: info.baseColor}}>TechStack/Tools</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
+            <p style={{color: info.baseColor}}> others</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
@@ -38,10 +32,7 @@ export default function About({innerRef}) {
 
     function miscText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            <p style={{color: info.baseColor}}>hobbies/interests</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
