@@ -10,7 +10,7 @@ import cer2 from "../img/cer2.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(1, 152, 104)", "rgb(6, 1, 144)"];
+export let colors = ["#0093fa", "rgb(6, 1, 144)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -70,7 +70,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hi! I’m a web dev enthusiast from the Philippines. I love making cool and user-friendly websites. Always learning new stuff to keep my sites top-notch.",
+    bio: "I'm a web developer from the Philippines with a passion for creating user-friendly websites. I focus on front-end development, but I also have experience with basic full-stack development using the MERN stack. Currently, I'm a college student pursuing a Bachelor of Science in Information Systems, and I'm always eager to learn new technologies and best practices to improve my skills and collaborate with others.",
     skills:
         {
             proficientWith: ['html5', 'css3', 'javascript', 'react', 'tailwindCSS', '', 'git & github', 'vscode'],
