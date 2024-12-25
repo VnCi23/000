@@ -5,7 +5,7 @@ import {info} from "../../info/Info";
 
 export default function Portfolio({innerRef}) {
     return (
-        <Box id={'portfolio'} ref={innerRef}>
+        <Box id={'portfolio'} ref={innerRef} marginTop={'4rem'}>
             <Grid container display={'flex'} justifyContent={'center'}>
                 {info.portfolio.map((project, index) => (
                    <Grid item xs={12} md={6} key={index}>

@@ -6,6 +6,7 @@ h1 {
   @media only screen and (min-width: 940px) {
     font-size: 3rem;
     text-align: left;
+
   }
 }
 
@@ -21,7 +22,7 @@ h2 {
 
 .hand {
   animation-name: wave;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%;
   display: inline-block;
@@ -33,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: $lightgray;
+  color: blue;
   transition: color 200ms ease;
 }
 

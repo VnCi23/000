@@ -37,10 +37,10 @@ const scrollWidthOffset = (el) => {
 export default function Navbar({ darkMode, handleClick, active, setActive }) {
 
     return (
-        <Box component={'nav'} width={'100%'} position={singlePage ? 'fixed' : 'relative'} className={darkMode? Style.dark : Style.light}>
+        <Box component={'nav'} width={'100%'} position={'fixed'} className={darkMode? Style.dark : Style.light}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '2rem', md: '8rem' }}
-                fontSize={'1rem'}>
+                fontSize={'1rem'} fontWeight={'bold'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>

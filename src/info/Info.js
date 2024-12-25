@@ -6,6 +6,7 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import cer1 from "../img/cer1.png"
 import cer2 from "../img/cer2.png"
+import cer3 from "../img/cer3.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -18,7 +19,7 @@ the site.
  */
 
 /* 
-This variable will change the layout of the website from multipage to single, scrollable page
+This variable will change the layout of the website from multiple to single, scrollable page
 */
 export let singlePage = false;
 
@@ -29,10 +30,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "Vince Christian ",
-    lastName: "Gaurino",
+    firstName: "Vince Christian Gaurino",
+    // lastName: "Gaurino",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Aspiring Developer",
+    position: "Aspiring Web-Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -41,10 +42,10 @@ export const info = {
             emoji: '🌎',
             text: 'Based in the Philippines'
         },
-        {
-            emoji: "💼",
-            text: "Front-end Developer"
-        },
+        // {
+        //     emoji: "💼",
+        //     text: "Front-end Developer"
+        // },
         {
             emoji: "📧",
             text: "vincegaurino@gmail.com"
@@ -70,11 +71,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "I'm a web developer from the Philippines with a passion for creating user-friendly websites. I focus on front-end development, but I also have experience with basic full-stack development using the MERN stack. Currently, I'm a college student pursuing a Bachelor of Science in Information Systems, and I'm always eager to learn new technologies and best practices to improve my skills and collaborate with others.",
+    bio: "I'm a web developer from the Philippines who enjoys creating user-friendly websites. I mainly focus on front-end development but also have experience with basic full-stack development using the MERN stack. I'm currently studying for a Bachelor of Science in Information Systems and am always wanting to learn new technologies and improve my skills.",
     skills:
         {
-            proficientWith: ['html5', 'css3', 'javascript', 'react', 'tailwindCSS', '', 'git & github', 'vscode'],
-            exposedTo: ['MernStack', 'python', 'Java', 'figma']
+            proficientWith: ['html5', 'CSS3', 'Javascript', 'ReactJS', 'TailwindCSS', '', 'Git & Github', 'VScode'],
+            exposedTo: ['MongoDB','ReactJS', 'ExpressJS','NodeJS', 'Python', 'Java', 'Figma']
         }
     ,
     hobbies: [
@@ -83,7 +84,7 @@ export const info = {
             emoji: '💤'
         },
         {
-            label: 'Programing',
+            label: 'Programming',
             emoji: '👨‍💻'
         },
         {
@@ -96,13 +97,19 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Responsive Web Design",
-            live: "https://www.freecodecamp.org/certification/fcc165ce4db-ae48-45f9-ada7-b85d6852a35b/responsive-web-design",
+            live: "https://www.freecodecamp.org/certification/vnci23/responsive-web-design",
             source: "https://www.freecodecamp.org/", 
             image: cer2
         },
         {
+            title: "Front End Libraries",
+            live: "https://www.freecodecamp.org/certification/vnci23/front-end-development-libraries",
+            source: "https://www.freecodecamp.org/", 
+            image: cer3
+        },
+        {
             title: "JavaScript DSA",
-            live: "https://www.freecodecamp.org/certification/fcc165ce4db-ae48-45f9-ada7-b85d6852a35b/javascript-algorithms-and-data-structures",
+            live: "https://www.freecodecamp.org/certification/vnci23/javascript-algorithms-and-data-structures",
             source: "https://www.freecodecamp.org/",
             image: cer1
         },
@@ -115,25 +122,25 @@ export const info = {
         {
             title: "Contact link",
             live: "https://vnci23.github.io/link/",
-            source: "https://github.com/VnCi23/link",
+            source: "https://github.com/VnCi23/",
             image: mock2 
         },
         {
             title: "MiniMusicPlayer",
             live: "https://vnci23.github.io/MiniMusicPlayer/",
-            source: "https://github.com/VnCi23/MiniMusicPlayer",
+            source: "https://github.com/VnCi23/",
             image: mock3
         },
         {
             title: "Quiz-App",
             live: "https://vnci23.github.io/Quiz-App/",
-            source: "https://github.com/VnCi23/Quiz-App",
+            source: "https://github.com/VnCi23/",
             image: mock4
         },
         {
             title: "CountMyDay",
             live: "https://vinceeeeeeeeeee.netlify.app/",
-            source: "https://github.com/VnCi23/CountMyDay",
+            source: "https://github.com/VnCi23/",
             image: mock5
         },
     ]
