@@ -76,7 +76,7 @@ export const info = {
     skills:
         {
             proficientWith: ['html5', 'CSS3', 'Javascript', 'ReactJS', 'TailwindCSS', '', 'Git & Github', 'VScode'],
-            exposedTo: ['MongoDB','ReactJS', 'ExpressJS','NodeJS', 'Python', 'Java', 'Figma']
+            exposedTo: ['MongoDB','ReactJS', 'ExpressJS','NodeJS', 'ElectronJS', 'Figma', 'React Native',  'Firebase','Vercel','Python', 'Java', ],
         }
     ,
     hobbies: [
