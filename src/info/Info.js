@@ -7,6 +7,7 @@ import mock5 from "../img/mock5.png"
 import cer1 from "../img/cer1.png"
 import cer2 from "../img/cer2.png"
 import cer3 from "../img/cer3.png"
+import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -96,52 +97,58 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Responsive Web Design",
+            title: "Responsive Web-Design",
             live: "https://www.freecodecamp.org/certification/vnci23/responsive-web-design",
             source: "https://www.freecodecamp.org/", 
             image: cer2
         },
         {
-            title: "Front End Libraries",
+            title: "Front-End Libraries",
             live: "https://www.freecodecamp.org/certification/vnci23/front-end-development-libraries",
             source: "https://www.freecodecamp.org/", 
             image: cer3
         },
         {
-            title: "JavaScript DSA",
+            title: "JavaScript Data Structures and Algorithms",
             live: "https://www.freecodecamp.org/certification/vnci23/javascript-algorithms-and-data-structures",
             source: "https://www.freecodecamp.org/",
             image: cer1
         },
         {
-            title: "chat app",
-            live: "https://vnci23.github.io/chat/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/VnCi23/chat", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Front-end Ecommerce app",
+            live: "https://000-store.vercel.app/",
+            source: "https://github.com/VnCi23/",
+            image: mock6 
+        },
+        {
+            title: "Chat App",
+            live: "https://vnci23.github.io/chat/", 
+            source: "https://github.com/VnCi23/chat", 
             image: mock1
         },
         {
-            title: "Contact link",
+            title: "My Contact Link",
             live: "https://vnci23.github.io/link/",
             source: "https://github.com/VnCi23/",
             image: mock2 
         },
         {
-            title: "MiniMusicPlayer",
+            title: "Mini Music Streaming App",
             live: "https://vnci23.github.io/MiniMusicPlayer/",
             source: "https://github.com/VnCi23/",
             image: mock3
         },
         {
-            title: "Quiz-App",
+            title: "My Day Counter",
+            live: "https://vnci.vercel.app/",
+            source: "https://github.com/VnCi23/",
+            image: mock5
+        },
+        {
+            title: "Information System Quiz-App",
             live: "https://vnci23.github.io/Quiz-App/",
             source: "https://github.com/VnCi23/",
             image: mock4
-        },
-        {
-            title: "CountMyDay",
-            live: "https://vinceeeeeeeeeee.netlify.app/",
-            source: "https://github.com/VnCi23/",
-            image: mock5
         },
     ]
 }
