@@ -44,7 +44,7 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
         <Box component={'nav'} width={'100%'} position={'fixed'} className={darkMode ? Style.dark : Style.light}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '1rem', md: '5rem' }}
-                fontSize={'1.1rem'} fontWeight={'bold'}>
+                fontSize={'1rem'} fontWeight={'bold'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>

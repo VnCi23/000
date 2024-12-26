@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Calibre:wght@100;400;700&display=swap');
 @import "./variables.modules";
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 body {
     font-size: 1.5vh;
     width: 100%;
@@ -8,6 +17,7 @@ body {
     color: $dark;
     background-color: black;
     box-sizing: border-box;
+    animation: fadeIn 2s ease-in-out;
 }
 
 li {
@@ -27,6 +37,11 @@ a:hover,
 a:visited,
 a:active {
     text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: lighten($dark, 20%);
 }
 
 img {

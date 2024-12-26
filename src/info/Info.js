@@ -75,7 +75,7 @@ export const info = {
     bio: "I'm a web developer from the Philippines who enjoys creating user-friendly websites. I mainly focus on front-end development but also have experience with basic full-stack development using the MERN stack. I'm currently studying for a Bachelor of Science in Information Systems and am always wanting to learn new technologies and improve my skills.",
     skills:
         {
-            proficientWith: ['html5', 'CSS3', 'Javascript', 'ReactJS', 'TailwindCSS', '', 'Git & Github', 'VScode'],
+            proficientWith: ['html5', 'CSS3', 'Javascript', 'ReactJS', 'TailwindCSS', 'Git & Github', 'VScode'],
             exposedTo: ['MongoDB','ReactJS', 'ExpressJS','NodeJS', 'ElectronJS', 'Figma', 'React Native',  'Firebase','Vercel','Python', 'Java', ],
         }
     ,
