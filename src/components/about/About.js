@@ -10,7 +10,7 @@ export default function About({innerRef}) {
 
     function aboutMeText() {
         return <>
-            <p style={{color: info.baseColor}}>About <span style={{color: info.baseColor}}>{firstName}{info.lastName}</span></p>
+            <p style={{color: 'rgb(0, 51, 255)'}}>About <span style={{color:'rgb(0, 51, 255)'}}>{firstName}{info.lastName}</span></p>
             <p>
                 {info.bio}
             </p>
@@ -19,11 +19,11 @@ export default function About({innerRef}) {
 
     function skillsText() {
         return <>
-            <p style={{color: info.baseColor}}>Proficient with:</p>
+            <p style={{color: 'rgb(0, 51, 255)'}}>Proficient with:</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed to:</p>
+            <p style={{color: 'rgb(0, 51, 255)'}}> Exposed to:</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
@@ -32,7 +32,7 @@ export default function About({innerRef}) {
 
     function miscText() {
         return <>
-            <p style={{color: info.baseColor}}>Interests</p>
+            <p style={{color: 'rgb(0, 51, 255)'}}>Interests</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>

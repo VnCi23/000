@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
@@ -22,6 +21,11 @@ const links = [
         name: 'Achievements',
         to: 'portfolio',
         active: 'portfolio'
+    },
+    {
+        name: 'More',
+        to: 'password',
+        active: 'password'
     }
 ]
 
@@ -37,15 +41,15 @@ const scrollWidthOffset = (el) => {
 export default function Navbar({ darkMode, handleClick, active, setActive }) {
 
     return (
-        <Box component={'nav'} width={'100%'} position={'fixed'} className={darkMode? Style.dark : Style.light}>
+        <Box component={'nav'} width={'100%'} position={'fixed'} className={darkMode ? Style.dark : Style.light}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                gap={{ xs: '2rem', md: '8rem' }}
-                fontSize={'1rem'} fontWeight={'bold'}>
+                gap={{ xs: '1rem', md: '5rem' }}
+                fontSize={'1.1rem'} fontWeight={'bold'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>
                         <Link to={singlePage ? `#${link.to}` : `/${link.to}`}
-                        scroll={el => scrollWidthOffset(el)}
+                            scroll={el => scrollWidthOffset(el)}
                             smooth
                             onClick={() => setActive(link.active)} className={Style.link}>
                             {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
