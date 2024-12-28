@@ -7,6 +7,8 @@ import mock5 from "../img/mock5.png"
 import cer1 from "../img/cer1.png"
 import cer2 from "../img/cer2.png"
 import cer3 from "../img/cer3.png"
+import cer4 from "../img/cer4.png"
+import cer5 from "../img/cer5.png"
 import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -113,6 +115,18 @@ export const info = {
             live: "https://www.freecodecamp.org/certification/vnci23/javascript-algorithms-and-data-structures",
             source: "https://www.freecodecamp.org/",
             image: cer1
+        },
+        {
+            title: "Introduction to Artificial Intelligence",
+            live: "https://www.linkedin.com/learning/certificates/dfeae28f914f3eaca2b98ac3373117dcf5f8cb0efdce79b522e0665d4a78a5b4?trk=share_certificate",
+            source: "https://www.linkedin.com/learning",
+            image: cer4
+        },
+        {
+            title: "Ethics in the Age of Generative AI",
+            live: "https://www.linkedin.com/learning/certificates/a7da33bc25b15543983bcad5f1129b326de8f12262d775d65a013310d63bcb7f?trk=share_certificate",
+            source: "https://www.linkedin.com/learning",
+            image: cer5
         },
         {
             title: "Front-end Ecommerce app",
