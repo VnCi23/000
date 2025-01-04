@@ -130,7 +130,7 @@ export const info = {
             image: cer5
         },
         {
-            title: "Microsoft learn - Describe security and compliance concepts Assessment Passed",
+            title: "Describe security and compliance concepts Assessment Passed",
             live: "https://learn.microsoft.com/en-us/users/vincechristiangaurino-6191/achievements/4lxvmezk",
             source: "https://learn.microsoft.com/en-us/",
             image: cer7
