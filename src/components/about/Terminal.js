@@ -10,7 +10,7 @@ function Terminal(props) {
 
    return (
       <Box component={'section'} className={classNames(Style.terminal, Style.shadowed)}
-           width={{xs: '80%', md: '50%'}} marginTop={'2rem'} borderRadius={'0.5rem'} mb={'4rem'}>
+           width={{xs: '80%', md: '50%'}} marginTop={'2rem'} borderRadius={'0.5rem'} mb={'1rem'}>
          <Box sx={{backgroundColor: '#00209d'}} p={'0.5rem'} borderRadius={'0.5rem 0.5rem 0 0'}
               fontSize={'1rem'}>
             <i className={classNames(iconClass, Style.red)}/>

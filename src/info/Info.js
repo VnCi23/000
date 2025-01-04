@@ -9,6 +9,7 @@ import cer2 from "../img/cer2.png"
 import cer3 from "../img/cer3.png"
 import cer4 from "../img/cer4.png"
 import cer5 from "../img/cer5.png"
+import cer7 from "../img/cer7.png"
 import mock6 from "../img/mock6.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -74,11 +75,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "I'm a web developer from the Philippines who enjoys creating user-friendly websites. I mainly focus on front-end development but also have experience with basic full-stack development using the MERN stack. I'm currently studying for a Bachelor of Science in Information Systems and am always wanting to learn new technologies and improve my skills.",
+    bio: "I'm a web developer from the Philippines who enjoys creating user-friendly websites. I mainly focus on front-end development but also have experience with basic full-stack development using the MERN stack. I'm currently studying for a Bachelor of Science in Information Systems and I am always wanting to learn new technologies and improve my skills.",
     skills:
         {
             proficientWith: ['html5', 'CSS3', 'Javascript', 'ReactJS', 'TailwindCSS', 'Git & Github', 'VScode'],
-            exposedTo: ['MongoDB','ReactJS', 'ExpressJS','NodeJS', 'ElectronJS', 'Figma', 'React Native',  'Firebase','Vercel','Python', 'Java', ],
+            exposedTo: ['MongoDB', 'ReactJS', 'ExpressJS', 'NodeJS', 'ElectronJS', 'React Native', 'Figma', 'Firebase', 'Vercel', 'Python', 'Java', ],
         }
     ,
     hobbies: [
@@ -99,34 +100,40 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Responsive Web-Design",
+            title: "Responsive Web-Design Certification",
             live: "https://www.freecodecamp.org/certification/vnci23/responsive-web-design",
             source: "https://www.freecodecamp.org/", 
             image: cer2
         },
         {
-            title: "Front-End Libraries",
+            title: "Front-End Libraries Certification",
             live: "https://www.freecodecamp.org/certification/vnci23/front-end-development-libraries",
             source: "https://www.freecodecamp.org/", 
             image: cer3
         },
         {
-            title: "JavaScript Data Structures and Algorithms",
+            title: "JavaScript Data Structures and Algorithms Certification",
             live: "https://www.freecodecamp.org/certification/vnci23/javascript-algorithms-and-data-structures",
             source: "https://www.freecodecamp.org/",
             image: cer1
         },
         {
-            title: "Introduction to Artificial Intelligence",
+            title: "Introduction to Artificial Intelligence (AI) Certification",
             live: "https://www.linkedin.com/learning/certificates/dfeae28f914f3eaca2b98ac3373117dcf5f8cb0efdce79b522e0665d4a78a5b4?trk=share_certificate",
             source: "https://www.linkedin.com/learning",
             image: cer4
         },
         {
-            title: "Ethics in the Age of Generative AI",
+            title: "Ethics in the Age of Generative AI Certification",
             live: "https://www.linkedin.com/learning/certificates/a7da33bc25b15543983bcad5f1129b326de8f12262d775d65a013310d63bcb7f?trk=share_certificate",
             source: "https://www.linkedin.com/learning",
             image: cer5
+        },
+        {
+            title: "Microsoft learn - Describe security and compliance concepts Assessment Passed",
+            live: "https://learn.microsoft.com/en-us/users/vincechristiangaurino-6191/achievements/4lxvmezk",
+            source: "https://learn.microsoft.com/en-us/",
+            image: cer7
         },
         {
             title: "Front-end Ecommerce app",
@@ -142,7 +149,7 @@ export const info = {
         },
         {
             title: "My Contact Link",
-            live: "https://vnci23.github.io/link/",
+            live: "https://link-xi-three.vercel.app/",
             source: "https://github.com/VnCi23/",
             image: mock2 
         },
