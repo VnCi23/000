@@ -59,7 +59,7 @@ const InputSearch = styled('input')({
   border: '3px solid #000',
   padding: '5px',
   fontSize: '12px',
-  background: ' #deb887',
+  background: 'rgb(255, 255, 255)',
   color: '#000',
   transform: 'translateZ(10px)',
   transition: 'all 400ms cubic-bezier(0.23, 1, 0.32, 1)',
