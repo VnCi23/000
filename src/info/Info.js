@@ -12,6 +12,7 @@ import cer5 from "../img/cer5.png"
 import cer7 from "../img/cer7.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.jpeg"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -141,6 +142,12 @@ export const info = {
             live: "https://iscp-grading-system-wnvm.vercel.app/",
             source: "https://github.com/VnCi23/",
             image: mock7 
+        },
+        {
+            title: "IS Professional Elective 3 - MExp2",
+            live: "https://mexp2.vercel.app/",
+            source: "https://github.com/VnCi23/",
+            image: mock8
         },
         {
             title: "Front-end Ecommerce app",
