@@ -39,7 +39,7 @@ export const info = {
     firstName: "Vince Christian Gaurino",
     // lastName: "Gaurino",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Aspiring Web-Developer",
+    position: "Aspiring Software-Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -102,37 +102,37 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Responsive Web-Design Certification",
+            title: "Certificate : Responsive Web-Design",
             live: "https://www.freecodecamp.org/certification/vnci23/responsive-web-design",
             source: "https://www.freecodecamp.org/", 
             image: cer2
         },
         {
-            title: "Front-End Libraries Certification",
+            title: "Certificate : Front-End Libraries",
             live: "https://www.freecodecamp.org/certification/vnci23/front-end-development-libraries",
             source: "https://www.freecodecamp.org/", 
             image: cer3
         },
         {
-            title: "JavaScript Data Structures and Algorithms Certification",
+            title: "Certificate : JavaScript Data Structures and Algorithms",
             live: "https://www.freecodecamp.org/certification/vnci23/javascript-algorithms-and-data-structures",
             source: "https://www.freecodecamp.org/",
             image: cer1
         },
         {
-            title: "Introduction to Artificial Intelligence (AI) Certification",
+            title: "Certificate : Introduction to Artificial Intelligence (AI)",
             live: "https://www.linkedin.com/learning/certificates/dfeae28f914f3eaca2b98ac3373117dcf5f8cb0efdce79b522e0665d4a78a5b4?trk=share_certificate",
             source: "https://www.linkedin.com/learning",
             image: cer4
         },
         {
-            title: "Ethics in the Age of Generative AI Certification",
+            title: "Certificate : Ethics in the Age of Generative AI",
             live: "https://www.linkedin.com/learning/certificates/a7da33bc25b15543983bcad5f1129b326de8f12262d775d65a013310d63bcb7f?trk=share_certificate",
             source: "https://www.linkedin.com/learning",
             image: cer5
         },
         {
-            title: "Describe security and compliance concepts Assessment Passed",
+            title: "Assessment Passer : Describe security and compliance concepts",
             live: "https://learn.microsoft.com/en-us/users/vincechristiangaurino-6191/achievements/4lxvmezk",
             source: "https://learn.microsoft.com/en-us/",
             image: cer7
