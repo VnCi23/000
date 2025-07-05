@@ -39,7 +39,7 @@ export const info = {
     firstName: "Vince Christian Gaurino",
     // lastName: "Gaurino",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Aspiring Software-Developer",
+    position: "Aspiring Software Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -86,17 +86,46 @@ export const info = {
     ,
     hobbies: [
         {
+            label: 'Front-End Web Development',
+            // emoji: '🧑‍💻'
+        },
+        {
+            label: 'Software Development',
+            // emoji: '💻'
+        },
+        {
+            label: 'Prompt Engineering',
+            // emoji: '🧑‍🔬'
+        },
+        {
+            label: 'Music',
+            // emoji: '🧑‍🔬'
+        },
+        {
+            label: 'Movies',
+            // emoji: '👨‍💻'
+        },
+        {
+            label: 'Gaming',
+            // emoji: ''
+        },
+        {
+            label: 'Artificial Intelligence',
+            // emoji: '👨‍💻'
+        },
+        {
+            label: 'Technology',
+            // emoji: ''
+        },
+        {
+            label: 'Web Design',
+            // emoji: ''
+        },
+        {
             label: 'Sleeping',
-            emoji: '💤'
+            // emoji: ''
         },
-        {
-            label: 'Programming',
-            emoji: '👨‍💻'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
+
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
